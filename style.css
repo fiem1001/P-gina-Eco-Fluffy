@@ -1,62 +1,69 @@
 *{
     margin: 0px;
     padding: 0px;
+    border: 0;
+    font-size: 100%
+    vertical-align: baseline;
 
 }
 body{
     background: #ec84ca;
     font-family: sans-serif;
-
+    text-align: center;
 }
+
 #container{
     width: 90%;
     margin: 0px auto;
 }
-header h1{
-        background: #9AEBA3;
-        height: 200px;
-        width: 100%;
-        text-align: center;
-        line-height: 200px;
-        color: black;
-        border-bottom: 20px solid #fff;
-        font-size: 50px;
-    }
+
+.logo {
+    text-decoration: none;
+    color: #F2D5C4;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar {
+    display: block;
+    padding: 23px 20px;
+    color: #080101;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar:hover {
+    background: #c6f2ee;
+
+}
+
+head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #F2D5C4;
+    position: fixed;
+    z-index: 100;
+    width: none;
+}
+
 nav{
     background: #DAFDBA;
     height: 50px;
-    border-bottom: 5px solid #fff;
-}
-nav ul li{
-    float: right;
-    list-style: none;
-    margin: 10px;
-    color: black;
-    font-size: 20px;
-    line-height: 30px;
-    cursor: pointer;
-}
-nav ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #D96704;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-nav ul li:hover::after{
-    width: 100%;
+    border-bottom: 5px solid #fff;}
 
-}
-.clear{
+.clear {
     clear: both;
 }
 #contenido{
     float: left;
     width: calc(80% - 80px);
     min-height: 500px;
-    background: #8a569e;
+    background: #b1ea7b;
     padding: 40px;
 }
 .article{
@@ -75,10 +82,50 @@ aside{
     background: #038C7F;
     padding: 10px; 
 }
-@media screen and (max-width: 700px) {
-    nav ul li{
+@media screen and (max-width: 700px)
+
+nav ul li{
         width: none;
         flex-basis: 0;
         flex-grow: 1;
     }
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-image: url('ropita.png');
+    background-size: contain;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px soli9AEBA3d #080101;
+    color: black;
+    text-decoration: none;
+    background: #DAFDBA;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home {
+        margin: 0 10px;
+
 }
