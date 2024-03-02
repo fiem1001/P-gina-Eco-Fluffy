@@ -109,6 +109,7 @@ header{
 p {
     margin-bottom: 40px;
     font-size: 18px;
+    color: black;
 }
 
 .btn {
@@ -128,4 +129,17 @@ p {
 .btn-home {
         margin: 0 10px;
 
+}
+
+.content {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    float: left;
+    margin-left: 40px;
 }
