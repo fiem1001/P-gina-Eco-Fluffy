@@ -93,7 +93,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 50vh;
     background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(250, 250, 250, 0.35)), 
     url('ropita.png');
     background-size: contain;
